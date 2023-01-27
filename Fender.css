@@ -44,8 +44,14 @@ h1      {
     padding: 5px;
     text-align: left;
     }
-    
-h2         {
+
+section {
+    grid-auto-flow: row;
+    grid-auto-flow: column;
+    display: screen;
+    }
+
+h2    {
     padding: 460px;
     }
         
@@ -68,17 +74,20 @@ h2         {
     font-family: 'Roboto', sans-serif;
     }
 
-a:link{
-        color: black;
-    }
-
-a:visited{
-        color: grey;
-    }
-
-a:visited{
+a:visited   { 
     color: red;
+    text-decoration-color: white;
     }
+
+.drilldown-close {
+    color: black;
+}
+
+a:link{
+    color: black;
+    }
+
+
 
 
 
