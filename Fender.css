@@ -55,8 +55,10 @@ h2    {
     padding: 460px;
     }
         
-.footer     {
-    position: static;
+
+
+footer     {
+    position: relative;
     left: 0;
     bottom: 0;
     width: 1920px;
@@ -77,6 +79,10 @@ h2    {
 a:visited   { 
     color: red;
     text-decoration-color: white;
+    }
+
+a:hover {
+    background-color: black;
     }
 
 .drilldown-close {
