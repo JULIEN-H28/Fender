@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 input   { 
     width:600px;
     height: 50px;
-    margin: auto;
     border: 1px solid black;
     border-radius:50px;
     text-align:center;
@@ -17,9 +17,7 @@ nav     {
     }
     
 .figure  {
-    position: static;
-    left: 0;
-    bottom: 0;
+    position: absolute;
     width: 1920px;
     height: 50px;
     padding: 5px;
@@ -29,20 +27,17 @@ nav     {
     }
 
 .container {
-    position: relative;
-    width: 700px;
-    height: 240px;
+    background-image: url('img/PHOTO_1.jpg');
+    width:1920;
+    height:696;
+    padding: 300px;
     }
-        
-.container > .caption {
-    position: absolute;
-    bottom: 0;
-    left: 50px;
-    }
+    
 
-h1      {
-    padding: 5px;
-    text-align: left;
+h1 > div   {
+    margin: auto;
+    padding: 0px;
+   
     }
 
 section {
@@ -51,8 +46,9 @@ section {
     display: screen;
     }
 
-h2    {
-    padding: 460px;
+main   {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
     }
         
 
@@ -70,7 +66,6 @@ footer     {
     font-size: 30pt;
     }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
  body   { 
     display: screen;
     font-family: 'Roboto', sans-serif;
@@ -92,7 +87,9 @@ a:hover {
 a:link{
     color: black;
     }
-
+.text{
+    text-align: left
+}
 
 
 
