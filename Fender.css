@@ -46,9 +46,10 @@ section {
     display: screen;
     }
 
-main   {
+ul   {
     text-align: left;
     font-family: 'Roboto', sans-serif;
+    font-size: 20pt;
     }
         
 
