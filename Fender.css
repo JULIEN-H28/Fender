@@ -1,0 +1,24 @@
+header > div {
+    margin: auto;
+    width: 600px;
+    height: 50px;
+    border: 0,5px solid black;
+    border-radius: 50px;
+    text-align: center;
+}
+
+header > div > a    {
+    font-family: 'roboto'; sans-serif;
+    font-weight: 400;
+    text-align: justify-all;
+    font-size: 15pt;
+}
+
+header > nav > ul > li > a      {
+    font-family: 'roboto'; sans-serif;
+    font-weight: 900;
+    font-size: 10pt;
+    text-align: center;
+    text-decoration: none;
+    flex-wrap: nowrap;
+}
