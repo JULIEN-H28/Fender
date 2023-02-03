@@ -1,27 +1,81 @@
-header > div {
-    margin: auto;
-    width: 600px;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+input   { 
+    width:600px;
     height: 50px;
+    margin: auto;
     border: 1px solid black;
-    border-radius: 50px;
-    text-align: center;
-}
-
-header > div > a    {
+    border-radius:50px;
+    text-align:center;
     font-family: 'Roboto', sans-serif;
     font-size: 15pt;
-    
-}
-
-header > nav > ul   {
-    list-style: none;
-    flex-wrap: nowrap;
-}
-    
-header > nav > ul > a   {
+    }
+   
+nav     {
+    padding: 20px;
     font-family: 'Roboto', sans-serif;
-    width: 900px;
-    font-size: 10pt;
+    text-align:center; 
+    }
+    
+.figure  {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 1920px;
+    height: 50px;
+    padding: 5px;
+    background-color: black;
+    color: white;
     text-align: center;
-}
+    }
 
+.container {
+    position: relative;
+    width: 700px;
+    height: 240px;
+    }
+        
+.container > .caption {
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    }
+
+h1      {
+    padding: 5px;
+    text-align: left;
+    }
+    
+h2         {
+    padding: 460px;
+    }
+        
+.footer     {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 1920px;
+    height: 500px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 30pt;
+    }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+ body   { 
+    display: screen;
+    font-family: 'Roboto', sans-serif;
+    }
+
+a:link{
+        color: black;
+    }
+
+a:visited{
+    color: red;
+    }
+
+
+
+   
