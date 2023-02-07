@@ -1,25 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
-input   { 
-    width:600px;
+header > div    { 
+    margin: 0 auto;
+    width: 600px;
     height: 50px;
-    margin: auto;
-    border: 1px solid black;
+    border: 0.5px solid black;
     border-radius:50px;
-    text-align:center;
+    text-align: center;
+}
+
+header > div > a    {
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: justify-all;
     font-size: 15pt;
-    }
-   
-nav     {
-    padding: 20px;
+}
+
+header > nav > ul > li > a {
+    flex-wrap: nowrap;
     font-family: 'Roboto', sans-serif;
-    text-align:center; 
-    }
+    font-weight: 900;
+    font-size: 10pt;
+    text-align: center;
+    list-style: none;
+}
     
 .figure  {
-    position: static;
-    left: 0;
-    bottom: 0;
+    position: absolute;
     width: 1920px;
     height: 50px;
     padding: 5px;
@@ -29,30 +34,44 @@ nav     {
     }
 
 .container {
-    position: relative;
-    width: 700px;
-    height: 240px;
-    }
-        
-.container > .caption {
-    position: absolute;
-    bottom: 0;
-    left: 50px;
-    }
-
-h1      {
-    padding: 5px;
-    text-align: left;
+    background-image: url('img/PHOTO_1.jpg');
+    width:1920;
+    height:696;
+    padding: 300px;
     }
     
-h2         {
-    padding: 460px;
+h1 > div   {
+    margin: auto;
+    padding: 0px;
+   
+    }
+
+section {
+    grid-auto-flow: row;
+    grid-auto-flow: column;
+    display: screen;
+    }
+    
+div style {
+    flex-direction: flex row
+    }
+
+
+
+
+    
+ul   {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20pt;    font-family: 'Roboto', sans-serif;
+    font-weight: regular 900;
     }
         
-.footer     {
-    position: static;
+footer     {
+    position: relative;
     left: 0;
-    bottom: 0;
+    bottom: 0;    font-family: 'Roboto', sans-serif;
+    font-weight: regular 900;
     width: 1920px;
     height: 500px;
     padding: 5px;
@@ -62,19 +81,31 @@ h2         {
     font-size: 30pt;
     }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
  body   { 
     display: screen;
     font-family: 'Roboto', sans-serif;
     }
 
-a:link{
-        color: black;
+a:visited   { 
+    color: red;
+    text-decoration-color: white;
     }
 
-a:visited{
-    color: red;
+a:hover {
+    background-color: black;
     }
+
+.drilldown-close {
+    color: black;
+}
+
+a:link{
+    color: black;
+    }
+.text{
+    text-align: left
+}
+
 
 
 
