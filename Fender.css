@@ -12,33 +12,14 @@ header > div > a    {
     font-weight: 400;
     text-align: justify-all;
     font-size: 15pt;
-}
-
-#fendernav  {
-    height: 80px;
-    width: 100%;
-    position: sticky;
-    top: 0%;
-    left: 0%;
-    display: inline-grid;
-}
-
-#fendernav > ul > li {
-    text-align: center;
-    display: grid;
-}
-
-#fendernav > ul > li > a {
-    display: grid;
-    align-items: center;
+    }
+   
+nav     {
+    padding: 20px;
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 15pt;
-    text-decoration: none;
-    list-style: none;
+    text-align:center; 
+    }
     
-}
-
 .figure  {
     position: absolute;
     width: 1920px;
@@ -55,8 +36,12 @@ header > div > a    {
     height:696;
     padding: 300px;
     }
-    
-
+        
+.container > .caption {
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    }
 
 section {
     grid-auto-flow: row;
@@ -64,12 +49,12 @@ section {
     display: screen;
     }
     
-div style {
-    flex-direction: flex row
+h2         {
+    padding: 460px;
     }
-
-footer     {
-    position: relative;
+        
+.footer     {
+    position: static;
     left: 0;
     bottom: 0;    font-family: 'Roboto', sans-serif;
     font-weight: regular 900;
@@ -87,21 +72,13 @@ footer     {
     font-family: 'Roboto', sans-serif;
     }
 
-a:visited   { 
+a:link{
+        color: black;
+    }
+
+a:visited{
     color: red;
-    text-decoration-color: white;
     }
-
-a:hover {
-    background-color: black;
-    }
-
-.drilldown-close {
-    color: black;
-}
-
-
-
 
 
 
