@@ -1,7 +1,8 @@
 header > div    { 
-    margin: 0 auto;
+    margin: auto;
+    padding: 5px;
     width: 600px;
-    height: 50px;
+    height: 30px;
     border: 0.5px solid black;
     border-radius:50px;
     text-align: center;
@@ -12,97 +13,84 @@ header > div > a    {
     font-weight: 400;
     text-align: justify-all;
     font-size: 15pt;
-}
-
-#fendernav  {
-    height: 90px;
-    width: 100%;
-    position: sticky;
-    top: 0%;
-    left: 0%;
-    display: inline-grid;
-}
-
-#fendernav > ul > li {
-    text-align: center;
-    display: grid;
-}
-
-#fendernav > ul > li > a {
-    display: grid;
-    align-items: center;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 15pt;
     text-decoration: none;
-    list-style: none;
-    
-}
-
-.figure  {
-    position: absolute;
-    width: 1920px;
-    height: 50px;
-    padding: 5px;
-    background-color: black;
-    color: white;
-    text-align: center;
-    }
-
-.container {
-    background-image: url('img/PHOTO_1.jpg');
-    width:1920;
-    height:696;
-    padding: 300px;
-    }
-    
-
-
-section {
-    grid-auto-flow: row;
-    grid-auto-flow: column;
-    display: screen;
-    }
-    
-div style {
-    flex-direction: flex row
-    }
-
-footer     {
-    position: relative;
-    left: 0;
-    bottom: 0;    font-family: 'Roboto', sans-serif;
-    font-weight: regular 900;
-    width: 1920px;
-    height: 500px;
-    padding: 5px;
-    background-color: black;
-    color: white;
-    text-align: center;
-    font-size: 30pt;
-    }
-
- body   { 
-    display: screen;
-    font-family: 'Roboto', sans-serif;
-    }
-
-a:visited   { 
-    color: red;
-    text-decoration-color: white;
-    }
-
-a:hover {
-    background-color: black;
-    }
-
-.drilldown-close {
     color: black;
 }
 
+li  {
+    list-style-type: none;
+    display: inline-block;
+    }
+    
+li > a  {
+    padding: 30px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 10pt;
+    color: black;
+}
 
+li > a:hover {
+    color : red
+ }
 
+#livraison  {
+    padding-top: 2px;
+    background-color: black;
+    height: 50px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12pt;
+    text-align: center;
+}
+  
+h1  {
+    background-image: url('img/PHOTO_1.jpg');
+    background-size: cover;
+    height: 500px;
+    background-repeat: no-repeat;
+}
 
+h1 > P {
+    font-family: 'Roboto', sans-serif;
+}
 
+h2 {
+    flex-wrap: nowrap;
+    margin-left: 20px;
+    gap: 1px;
+}
 
-   
+h3 {
+    flex-wrap: nowrap;
+    margin-left: 380px;
+    gap: 1px;
+}
+
+h4 {
+    flex-wrap: nowrap;
+    margin-left: 20px;
+    gap: 1px;
+}
+
+h5 {
+    flex-wrap: nowrap;
+    margin-left: 300px;
+    gap: 1px;
+}
+
+#footer  {
+    padding-top: 15px;
+    background-color: black;
+    height: 500px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12pt;
+    text-align: center;
+    }
+
+#footer > ul {
+    text-align: center;
+    }
